@@ -1,0 +1,222 @@
+@media screen and (max-width:430px){
+  :root{
+    --maincolor-1:#FFFFFF;
+    --maincolor-2:#2196F3;
+  } 
+.container{
+position:absolute;
+width: 430px;
+height: 1864px;
+background:var(--maincolor-1)
+}
+
+/* z-index 를 사용하지 않고, header로 지정한 부분이 왜 안나오는지 정확히 확인하지 못했습니다. 개발자 도구에서 영역은 잡히는데 색이 나오지 않아서 z-index로 우선 보이게끔 하였습니다. 추후 집에 가서 다시 한번 확인해 보고 싶습니다.   */
+/* 데스크탑이나 테블릿버전에서는 정상적으로 나오는데 왜 
+아이폰사이즈에서는 나오지 않는지 이유를 찾아보겠습니다. */
+header{
+  position: absolute;
+  width: 430px;
+  height: 110px;
+  left: 0px;
+  top: 0px;
+  background: #2196F3;
+  z-index: 1;
+}
+ .head_t{
+position: absolute;
+width: 234px;
+height: 15px;
+left: 98px;
+top: 68px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+color: var(--maincolor-1)
+}
+main{ 
+position: absolute;
+width: 1728px;
+height: 657px;
+top:0;
+background: var(--maincolor-1)
+}
+
+  nav{
+display: none;
+position: absolute;
+width: 1728px;
+height: 200px;
+left: 0px;
+background: #F0F0F0;
+}
+
+.side_l1{
+position: absolute;
+width: 302px;
+height: 96px;
+left: 23px;
+top: 319px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100%;
+text-align: center;
+color: #333333;
+}
+
+.side_l2{
+position: absolute;
+width: 335px;
+height: 96px;
+left: 23px;
+top: 372px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100%;
+text-align: center;
+color: var(--maincolor-2)
+}
+
+.side_l3{ position: absolute;
+width: 146px;
+height: 96px;
+left: 23px;
+top: 425px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100%;
+text-align: center;
+color: var(--maincolor-2)
+}
+
+    .side_l4{
+position: absolute;
+width: 195px;
+height: 96px;
+left: 23px;
+top: 478px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100%;
+text-align: center;
+color: #2196F3;
+}
+.side_l5{
+position: absolute;
+width: 252px;
+height: 96px;
+left: 23px;
+top: 531px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100%;
+text-align: center;
+color: #333333;
+}
+
+.side_l6{
+position: absolute;
+width: 285px;
+height: 30px;
+left: 73px;
+top: 807px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: var(--maincolor-2)
+  }
+article{
+  position: absolute;
+  width: 430px;
+  height: 732px;
+  left: 0px;
+  top: 932px;
+  background: var(--maincolor-2)
+}
+.m1{
+position: absolute;
+width: 191px;
+height: 130px;
+left: 19px;
+top: 231px;
+font-family: 'Karantina', cursive ;
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 130px;
+color: var(--maincolor-1)
+}
+.m2{
+position: absolute;
+width: 225px;
+height: 130px;
+left: 19px;
+top: 344px;
+font-family: 'Karantina', cursive ;
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 130px; 
+color: var(--maincolor-1)
+}
+.m3{
+position: absolute;
+width: 286px;
+height: 130px;
+left: 19px;
+top: 455px; 
+font-family: 'Karantina', cursive ;
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 130px;
+color: var(--maincolor-1)
+}
+footer{   
+position: absolute;
+width: 430px;
+height: 200px;
+left: 0px;
+top: 1664px;
+
+background: #333333;
+    } 
+    .f5{
+position: absolute;
+width: 100%;
+height: 10px;
+left: 43px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px; 
+color: #F0F0F0;
+margin-top: 94px;
+margin-left: 0;
+}
+.bar_f{
+width: 345px;
+height: 2px;
+left: 43px;
+top: 1746px;
+background: #D9D9D9;
+}
+}
+
